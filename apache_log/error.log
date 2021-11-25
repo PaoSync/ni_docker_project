@@ -1,0 +1,15 @@
+AH00112: Warning: DocumentRoot [/var/www/html/public] does not exist
+[Thu Nov 25 08:36:04.620491 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.51 (Debian) PHP/7.4.26 configured -- resuming normal operations
+[Thu Nov 25 08:36:04.622099 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Thu Nov 25 08:38:10.881386 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00112: Warning: DocumentRoot [/var/www/html/public] does not exist
+[Thu Nov 25 08:38:20.329248 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.51 (Debian) PHP/7.4.26 configured -- resuming normal operations
+[Thu Nov 25 08:38:20.330406 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Thu Nov 25 08:41:00.000712 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00112: Warning: DocumentRoot [/var/www/html/public] does not exist
+[Thu Nov 25 08:43:15.542275 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.51 (Debian) PHP/7.4.26 configured -- resuming normal operations
+[Thu Nov 25 08:43:15.543361 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Thu Nov 25 08:46:31.159036 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00112: Warning: DocumentRoot [/var/www/html/public] does not exist
+[Thu Nov 25 08:47:27.628066 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.51 (Debian) PHP/7.4.26 configured -- resuming normal operations
+[Thu Nov 25 08:47:27.629174 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
