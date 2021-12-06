@@ -13,3 +13,39 @@ AH00112: Warning: DocumentRoot [/var/www/html/public] does not exist
 AH00112: Warning: DocumentRoot [/var/www/html/public] does not exist
 [Thu Nov 25 08:47:27.628066 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.51 (Debian) PHP/7.4.26 configured -- resuming normal operations
 [Thu Nov 25 08:47:27.629174 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Thu Nov 25 09:54:19.780585 2021] [php7:error] [pid 18] [client 172.26.0.1:64972] PHP Fatal error:  Cannot declare class App\\Controllers\\Users, because the name is already in use in /var/www/html/app/Controllers/Login.php on line 0
+[Thu Nov 25 09:56:32.396244 2021] [php7:error] [pid 19] [client 172.26.0.1:64976] PHP Fatal error:  Cannot declare class App\\Controllers\\Users, because the name is already in use in /var/www/html/app/Controllers/Login.php on line 0
+[Thu Nov 25 09:56:33.272836 2021] [php7:error] [pid 22] [client 172.26.0.1:64974] PHP Fatal error:  Cannot declare class App\\Controllers\\Users, because the name is already in use in /var/www/html/app/Controllers/Login.php on line 0
+[Thu Nov 25 09:56:34.188125 2021] [php7:error] [pid 20] [client 172.26.0.1:64978] PHP Fatal error:  Cannot declare class App\\Controllers\\Users, because the name is already in use in /var/www/html/app/Controllers/Login.php on line 0
+[Thu Nov 25 10:02:28.265715 2021] [php7:error] [pid 18] [client 172.26.0.1:64984] PHP Fatal error:  Cannot declare class App\\Controllers\\Users, because the name is already in use in /var/www/html/app/Controllers/Login.php on line 0
+[Thu Nov 25 10:02:29.553306 2021] [php7:error] [pid 23] [client 172.26.0.1:64982] PHP Fatal error:  Cannot declare class App\\Controllers\\Users, because the name is already in use in /var/www/html/app/Controllers/Login.php on line 0
+[Thu Nov 25 10:02:33.216412 2021] [php7:error] [pid 19] [client 172.26.0.1:64986] PHP Fatal error:  Cannot declare class App\\Controllers\\Users, because the name is already in use in /var/www/html/app/Controllers/Login.php on line 0
+[Thu Nov 25 10:07:10.762696 2021] [php7:error] [pid 20] [client 172.26.0.1:64992] PHP Fatal error:  Cannot declare class App\\Controllers\\Users, because the name is already in use in /var/www/html/app/Controllers/Login.php on line 0
+[Thu Nov 25 10:14:57.786453 2021] [php7:error] [pid 18] [client 172.26.0.1:64996] PHP Fatal error:  Cannot declare class App\\Controllers\\Users, because the name is already in use in /var/www/html/app/Controllers/Login.php on line 0
+[Thu Nov 25 10:16:19.496897 2021] [php7:error] [pid 19] [client 172.26.0.1:65000] PHP Fatal error:  Cannot declare class App\\Controllers\\Users, because the name is already in use in /var/www/html/app/Controllers/Login.php on line 0
+[Fri Nov 26 23:34:36.629607 2021] [php7:error] [pid 20] [client 172.26.0.1:65004] PHP Fatal error:  Cannot declare class App\\Controllers\\Users, because the name is already in use in /var/www/html/app/Controllers/Login.php on line 0
+[Fri Nov 26 23:34:39.195572 2021] [php7:error] [pid 21] [client 172.26.0.1:65002] PHP Fatal error:  Cannot declare class App\\Controllers\\Users, because the name is already in use in /var/www/html/app/Controllers/Login.php on line 0
+[Sat Nov 27 01:10:24.101674 2021] [php7:error] [pid 23] [client 172.26.0.1:65010] PHP Fatal error:  Cannot declare class App\\Controllers\\Users, because the name is already in use in /var/www/html/app/Controllers/Login.php on line 0
+[Sat Nov 27 01:10:29.360327 2021] [php7:error] [pid 19] [client 172.26.0.1:65008] PHP Fatal error:  Cannot declare class App\\Controllers\\Users, because the name is already in use in /var/www/html/app/Controllers/Login.php on line 0
+[Sat Nov 27 01:53:45.094532 2021] [php7:error] [pid 20] [client 172.26.0.1:65014] PHP Fatal error:  Cannot declare class App\\Controllers\\Users, because the name is already in use in /var/www/html/app/Controllers/Login.php on line 0
+[Sat Nov 27 01:58:21.113484 2021] [php7:error] [pid 18] [client 172.26.0.1:65020] PHP Fatal error:  Cannot declare class App\\Controllers\\Users, because the name is already in use in /var/www/html/app/Controllers/Login.php on line 0
+[Sat Nov 27 02:01:01.785605 2021] [php7:error] [pid 19] [client 172.26.0.1:65024] PHP Fatal error:  Cannot declare class App\\Controllers\\Users, because the name is already in use in /var/www/html/app/Controllers/Login.php on line 0
+[Sat Nov 27 02:03:46.440252 2021] [php7:error] [pid 20] [client 172.26.0.1:65028] PHP Fatal error:  Cannot declare class App\\Controllers\\Users, because the name is already in use in /var/www/html/app/Controllers/Login.php on line 0
+[Sat Nov 27 02:03:49.848341 2021] [php7:error] [pid 21] [client 172.26.0.1:65026] PHP Fatal error:  Cannot declare class App\\Controllers\\Users, because the name is already in use in /var/www/html/app/Controllers/Login.php on line 0
+[Sat Nov 27 06:56:38.891374 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Sat Nov 27 07:11:07.841387 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.51 (Debian) PHP/7.4.26 configured -- resuming normal operations
+[Sat Nov 27 07:11:07.842803 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Dec 04 18:29:41.288564 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.51 (Debian) PHP/7.4.26 configured -- resuming normal operations
+[Sat Dec 04 18:29:41.322830 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Dec 04 21:08:56.915034 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Sat Dec 04 21:08:58.947815 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.51 (Debian) PHP/7.4.26 configured -- resuming normal operations
+[Sat Dec 04 21:08:58.948656 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Dec 05 08:30:15.097968 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Sun Dec 05 08:30:40.381306 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.51 (Debian) PHP/7.4.26 configured -- resuming normal operations
+[Sun Dec 05 08:30:40.382456 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Dec 05 08:36:18.523786 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Sun Dec 05 08:49:55.794004 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.51 (Debian) PHP/7.4.26 configured -- resuming normal operations
+[Sun Dec 05 08:49:55.795371 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Dec 05 09:14:23.028265 2021] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Sun Dec 05 09:17:03.431328 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.51 (Debian) PHP/7.4.26 configured -- resuming normal operations
+[Sun Dec 05 09:17:03.432288 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Nov 25, 2021 at 09:20 AM
+-- Generation Time: Nov 24, 2021 at 07:56 AM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 7.4.25
 
@@ -20,8 +20,6 @@ SET time_zone = "+00:00";
 --
 -- Database: `ni_db`
 --
-CREATE DATABASE IF NOT EXISTS `ni_db` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
-USE `ni_db`;
 
 -- --------------------------------------------------------
 
@@ -33,10 +31,6 @@ CREATE TABLE `products` (
   `sku` varchar(250) NOT NULL,
   `name` varchar(250) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- RELATIONSHIPS FOR TABLE `products`:
---
 
 --
 -- Dumping data for table `products`
@@ -72,10 +66,6 @@ CREATE TABLE `purchased` (
   `user_id` int(200) NOT NULL,
   `product_sku` varchar(250) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- RELATIONSHIPS FOR TABLE `purchased`:
---
 
 --
 -- Dumping data for table `purchased`
@@ -400,10 +390,6 @@ CREATE TABLE `users` (
   `email` varchar(200) NOT NULL,
   `password` varchar(200) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- RELATIONSHIPS FOR TABLE `users`:
---
 
 --
 -- Dumping data for table `users`
