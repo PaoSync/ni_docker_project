@@ -3,7 +3,6 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="/assets/css/style.css">
     <title></title>
 
   </head>
@@ -23,10 +22,10 @@
           <li class="nav-item">
             <a class="nav-link" href="/logout">Logout</a>
           </li>
-          <li class="nav-item <?= ($uri->getSegment(1) == 'user' || $uri->getSegment(1) == 'auth' ? 'active' : null) ?>">
+          <li class="nav-item <?= ( ($uri->getSegment(1) == 'user' && $uri->getSegment(2) == '') || $uri->getSegment(1) == 'auth' ? 'active' : null) ?>">
             <a class="nav-link" href="/user">My Info</a>
           </li>
-          <li class="nav-item <?= ($uri->getSegment(1) == 'user/products' ? 'active' : null) ?>">
+          <li class="nav-item <?= ($uri->getSegment(1) == 'user' && $uri->getSegment(2) == 'products' ? 'active' : null) ?>">
             <a class="nav-link" href="/user/products">My Products</a>
           </li>
         </ul>
